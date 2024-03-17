@@ -1,10 +1,10 @@
-<!--Title of the Project-->
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Diabetes Diagnosis Prediction System using Logistic Regression and Developement of Smart Website  
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Integration of ML system with a website, aimed at diagnosing a patient to check whether they are affected by diabetes or not.
+
+## About  
+
+Diabetes mellitus, commonly known as diabetes is a chronic disease which affects a majority of people globally. Diabetes causes due to Age, lack of exercise, Obesity, bad diet, high blood pressure etc.., According to International Diabetes Federation 382 million people are living with diabetes across the whole world. Diabetics causes Blindness, kidney failure, heart attacks and Strokes. By 2035, this will be doubled as 592 million patients. Diabetics can only be kept only under control and cannot be cured. Our main goal is to unlock the power of technology to help people finding whether they are being affected by this disease. Diagnosis prediction system for Diabetes are already present in the medical industry. But they failed to diagnose accurately. The Proposed system is based on Logistic Regression, a machine learning model. The Dataset is taken from Kaggle.com website and is originally developed by PIMA which contains 768 data with the following features: Pregnancy, Glucose, BP, Skin-thickness, insulin, BMI, Diabetes Pedigree function, Age. Since we have so many features  to train the system with, it makes the system more reliable and trustable. Exploring important features of diabetes makes it possible for the diagnosis system to accurately predict whether the person is being  affected or not. Experiment results shows that it produces an accuracy of 96%.  
 
 ## Features
 <!--List the features of the project as shown below-->
