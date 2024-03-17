@@ -4,51 +4,52 @@ The Integration of ML system with a website, aimed at diagnosing a patient to ch
 
 ## About  
 
-Diabetes mellitus, commonly known as diabetes is a chronic disease which affects a majority of people globally. Diabetes causes due to Age, lack of exercise, Obesity, bad diet, high blood pressure etc.., According to International Diabetes Federation 382 million people are living with diabetes across the whole world. Diabetics causes Blindness, kidney failure, heart attacks and Strokes. By 2035, this will be doubled as 592 million patients. Diabetics can only be kept only under control and cannot be cured. Our main goal is to unlock the power of technology to help people finding whether they are being affected by this disease. Diagnosis prediction system for Diabetes are already present in the medical industry. But they failed to diagnose accurately. The Proposed system is based on Logistic Regression, a machine learning model. The Dataset is taken from Kaggle.com website and is originally developed by PIMA which contains 768 data with the following features: Pregnancy, Glucose, BP, Skin-thickness, insulin, BMI, Diabetes Pedigree function, Age. Since we have so many features  to train the system with, it makes the system more reliable and trustable. Exploring important features of diabetes makes it possible for the diagnosis system to accurately predict whether the person is being  affected or not. Experiment results shows that it produces an accuracy of 96%.  
+Diabetes mellitus, commonly known as diabetes is a chronic disease which affects a majority of people globally. Diabetes causes due to Age, lack of exercise, Obesity, bad diet, high blood pressure etc.., According to International Diabetes Federation 382 million people are living with diabetes across the whole world. Diabetics causes Blindness, kidney failure, heart attacks and Strokes. By 2035, this will be doubled as 592 million patients. Diabetics can only be kept only under control and cannot be cured. Our main goal is to unlock the power of technology to help people finding whether they are being affected by this disease. Diagnosis prediction system for Diabetes are already present in the medical industry. But they failed to diagnose accurately. The Proposed system is based on Logistic Regression, a machine learning model. The Dataset is taken from Kaggle.com website and is originally developed by PIMA which contains 768 data with the following features: Pregnancy, Glucose, BP, Skin-thickness, insulin, BMI, Diabetes Pedigree function, Age. Since we have so many features  to train the system with, it makes the system more reliable and trustable. Exploring important features of diabetes makes it possible for the diagnosis system to accurately predict whether the person is being  affected or not. Experiment results shows that it produces an accuracy of 84.6%.  
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
+- Implements Logistic Regression Algorithm
+- An user-friendly interface to place the data
+- Simple and easy to use website
 - Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+  
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Operating System: Requires a 32bit or 64-bit OS (Windows) for compatibility with deep learning frameworks.
+* Development Environment: Jupyter Notebook is necessary to train the model. Pycharm IDE is used to integrate the ML system with the site.
+* Deep Learning Frameworks: Logistic Regression model is imported from sk-learn library and will be trained in the jupyter notebook
+* Dataset: PIMA Indian diabetes dataset contained 768 data have being used.
+* IDE: Pycharm IDE is used to develop and integrate the ML system with the website.
+* Additional Dependencies: Includes scikit-learn, pandas ,matplotlib, seaborn for deep learning tasks.
 
-## System Architecture
+## System Architecture  
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Home page  
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Positive Result  
 
+
+
+#### Output2 - Negative Result  
+
+Detection Accuracy: 84.6%
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+                   The First Goal was to find the most significant model suiting the dataset. Factors such as data complexity, the availability of computational resources, size should be considered while choosing the most appropriate model.
+                   The ease of use and computational efficiency of the logistic Regression makes the model standout from rest of the Machine Learning Algorithms. It explains why it performs well better than other machine learning algorithms. This is due to its straightforward method for modelling the relationship between the input features and the dependent variable. 
+                  Given that the model doesn’t necessarily consume a lot of computational power, logistic regression is best suited for smaller datasets. More Sophisticated algorithms such as SVM, Decision Tree, Neural Networks or Random Forest may perform better than Logistic Regression when dealing with highly nonlinear data.
+                 We Created a Logistic Regression model that can precisely predict the outcome given the necessary inputs. Possible Outcomes are Positive and Negative. Positive indicates that diabetes is present. Negative indicates the absence of diabetes. 
 
 ## Articles published
 1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
