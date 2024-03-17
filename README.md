@@ -48,7 +48,7 @@ Detection Accuracy: 84.6%
 The First Goal was to find the most significant model suiting the dataset. Factors such as data complexity, the availability of computational resources, size should be considered while choosing the most appropriate model.The ease of use and computational efficiency of the logistic Regression makes the model standout from rest of the Machine Learning Algorithms. It explains why it performs well better than other machine learning algorithms. This is due to its straightforward method for modelling the relationship between the input features and the dependent variable. Given that the model doesn’t necessarily consume a lot of computational power, logistic regression is best suited for smaller datasets. More Sophisticated algorithms such as SVM, Decision Tree, Neural Networks or Random Forest may perform better than Logistic Regression when dealing with highly nonlinear data. We Created a Logistic Regression model that can precisely predict the outcome given the necessary inputs. Possible Outcomes are Positive and Negative. Positive indicates that diabetes is present. Negative indicates the absence of diabetes. 
 
 ## Articles published
-[1]	Mingqi Li, Xiaoyang Fu,  Dongdong Li “Diabetes Prediction Based on XGBoost Algorithm”  School of Computer Science,  Zhuhai College of Jilin University,  Zhuhai,  China,  2019.
+[1]	Mingqi Li, Xiaoyang Fu,  Dongdong Li “Diabetes Prediction Based on XGBoost Algorithm”  School of Computer Science,  Zhuhai College of Jilin University,  Zhuhai,  China,  2019.  
 [2]	Amelec Viloriaa, Yaneth Herazo-Beltranb, Danelys Cabrerac, Omar Bonerge Pinedad “Diabetes Diagnostic Prediction Using Vector Support Machines” Published by Elsevier B.V,  2020
 
 
